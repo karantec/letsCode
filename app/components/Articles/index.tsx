@@ -1,5 +1,5 @@
 "use client"
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import React, { Component } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -109,16 +109,14 @@ export default class MultipleItems extends Component {
                         <h3 className="text-blue text-lg font-normal tracking-widest">Services We offer to Studensts</h3>
                         <h3 className="text-4xl sm:text-6xl font-bold">Our Services</h3>
                     </div>
-
-
-                    <Slider {...settings}>
+                    <div 
+                    className="grid sm:grid-cols-2 items-center  md:grid-cols-3 gap-8  sm:px-0">
+        
                         {postData.map((items, i) => (
                             <div key={i} >
 
                                 <div className='bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-3xl relative md:flex-wrap'>
                                     <Image src={items.imgSrc} alt="gaby" width={400} height={500} className="inline-block m-auto" />
-
-                                    
                                     <h4 className="mt-8 text-center text-2xl font-bold pt-10 text-black">{items.heading}</h4>
                                     <p className=' text-center text-base   text-green-500'>{items.heading2}</p>
                                     <Link  className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img" href={items.Demo}>
@@ -131,7 +129,8 @@ export default class MultipleItems extends Component {
 
                             </div>
                         ))}
-                    </Slider>
+                    </div>
+                
                 </div>
             </div>
             </div>

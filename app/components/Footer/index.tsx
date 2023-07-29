@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import Join from "./Join";
 // MIDDLE LINKS DATA
 interface ProductType {
     id: number;
@@ -31,10 +31,11 @@ const products: ProductType[] = [
 
 const footer = () => {
     return (
-        <div className="bg-blue -mt-40" id="first-section">
-            <div className="mx-auto max-w-2xl pt-48 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div className="bg-blue -mt-43 -pt-5" id="first-section">
+             <Join/>
+            <div className="mx-auto max-w-2xl pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div className="mt-24 grid grid-cols-1 gap-y-10 gap-x-16 sm:grid-cols-2 lg:grid-cols-12 xl:gap-x-8">
-
+                    
                     {/* COLUMN-1 */}
 
                     <div className='col-span-4'>

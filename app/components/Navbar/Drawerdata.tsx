@@ -13,7 +13,7 @@ const navigation: NavigationItem[] = [
     { name: 'Services', href: '#blog-section', current: false },
     // { name: 'FAQ', href: '#faq-section', current: false },
     { name: 'Blog', href: '#blog-section', current: false },
-    { name: 'JOb', href: '#Job-section', current: false },
+    
 ]
 
 function classNames(...classes: string[]) {
@@ -40,9 +40,12 @@ const Data = () => {
                             </Link>
                         ))}
                         <div className="mt-4"></div>
-                        <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
+                      <a href="https://www.instagram.com/lets__code/">  <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
                             Contact Us
-                        </button>
+                        </button></a>
+                        <a href="https://symphonious-quokka-1f7a88.netlify.app/">  <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
+                            Job
+                        </button></a>
                         {/* <Contactusform /> */}
                     </div>
                 </div>
