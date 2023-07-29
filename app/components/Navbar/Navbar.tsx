@@ -7,7 +7,7 @@ import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
 import OnlinePlatform from "./OnlinePlatform"
-
+import Jobs from "./Jobs"
 interface NavigationItem {
     name: string;
     href: string;
@@ -19,7 +19,7 @@ const navigation: NavigationItem[] = [
     { name: 'Services', href: '#blog-section', current: false },
     // { name: 'FAQ', href: '#faq-section', current: false },
     { name: 'Blog', href: '#blog-section', current: false },
-    { name: 'JOb', href: '#Job-section', current: false },
+    
     // { name: 'Testimonial', href: '#testimonial-section', current: false },
 ]
 
@@ -68,7 +68,9 @@ const Navbar = () => {
                             </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
                             <OnlinePlatform />
+                            <Jobs/>
                             <Contactusform />
+
                         </div>
 
 

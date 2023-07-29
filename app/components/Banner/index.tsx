@@ -20,12 +20,10 @@ const Banner = () => {
                                 regardless of their background or financial constraints.</p>
                     </div>
                     <div className='my-7 text-center space-x-5  px-4 lg:text-start'>
-                       <a href="https://symphonious-quokka-1f7a88.netlify.app/"> <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
-                           Jobs
+                       <a href="https://competitions-and-programs-list.vercel.app/"> <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
+                       Competion and Program List for Students
                         </button></a>
-                        <a href="https://competitions-and-programs-list.vercel.app/"><button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
-                            Competion and <br/>Program List for Students
-                        </button></a>
+                      
                     </div>
                    
                 </div>
