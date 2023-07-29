@@ -20,7 +20,7 @@ const postData: DataType[] = [
         heading: 'Placement Material',
         heading2: "At  Let's Code , we are dedicated to empowering individuals in their tech journey by providing free study materials .",
         title:   "Placement Material",
-        Demo:"https://drive.google.com/drive/folders/1b7WFGCwERYEUm_S0lpwiJL3fWNjb8SAF?usp=sharing",
+        Demo:"https://t.me/offcampusjobsupdatess",
         imgSrc: '/images/article1.jpg',
     },
     {
