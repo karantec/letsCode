@@ -7,12 +7,11 @@ import Image from "next/image";
 // CAROUSEL DATA
 
 interface DataType {
-    time: string;
     heading: string;
     heading2: string;
-    date: string;
+    title: string;
+    Demo:string;
     imgSrc: string;
-    name: string;
 }
 
 const postData: DataType[] = [
@@ -20,42 +19,42 @@ const postData: DataType[] = [
         
         heading: 'Placement Material',
         heading2: "At  Let's Code , we are dedicated to empowering individuals in their tech journey by providing free study materials .",
-        Dem:   "Placement Material",
+        title:   "Placement Material",
         Demo:"https://drive.google.com/drive/folders/1b7WFGCwERYEUm_S0lpwiJL3fWNjb8SAF?usp=sharing",
         imgSrc: '/images/article1.jpg',
     },
     {
         heading: 'Resume View',
         heading2: "We also help students improve their resumes, LinkedIn profiles, and GitHub profiles. So don't wait, reach out to us for any help!.",
-        Dem:   "Resume",
+        title:   "Resume",
         Demo:"https://docs.google.com/forms/d/e/1FAIpQLSfG0glYZ2dtraoWfvLkZpbfZodK_zfWMljRL7I1ChTthyBDaQ/viewform",
         imgSrc: '/images/articles/article3.png',
     },
     {
         heading: 'PortFolio Development',
         heading2: "Portfolios can help you clearly define your strengths and weaknesses. The documents included in a portfolio will identify your strong suits.The documents included in a portfolio will identify your strong suits. .",
-        Dem:   "PortFolio",
+        title:   "PortFolio",
         Demo:"https://docs.google.com/forms/d/e/1FAIpQLSc9pRvjNSargdpq6Vc3USwFacMUJ0HXv7kg1Nuov6GMMasKOA/viewform",
         imgSrc: '/images/articles/portifi.png',
     },
     {
         heading: 'College  Collaboration',
         heading2: "By staying connected with us, you can enhance your knowledge and seize potential prospects that may lead to a successful career.We have already created groups for many college .",
-        Dem:   " Collaboration",
+        title:   " Collaboration",
         Demo:"https://docs.google.com/forms/d/e/1FAIpQLSc3p0ZY8EQeJL5rxonVt3URVw-zgSv97hNPUG7-b8MaxRNoUg/viewform",
         imgSrc: '/images/articles/college.jpg',
     },
     {
         heading: 'LinkedIn profile optimization',
         heading2: "LinkedIn profile optimization involves strategically tailoring your profile to showcase your skills experience  and accomplishments in a compelling manner. By doing so, you can enhance your online presence and improve your chances of being noticed by recruiters, hiring managers.",
-        Dem:   "LinkedIn",
+        title:   "LinkedIn",
         Demo:"#",
         imgSrc: '/images/articles/article6.png',
     },
     {
         heading: 'Github profile optimization',
         heading2: "Optimizing your GitHub profile will not only strengthen your presence within the developer community but also open doors to new opportunities and collaborations.As you showcase your skills and dedication to coding, potential. ",
-        Dem:   "Github",
+        title:   "Github",
         Demo:"#",
         imgSrc: '/images/articles/article7.jpg',
     },
@@ -121,7 +120,7 @@ export default class MultipleItems extends Component {
                                     <h4 className="mt-8 text-center text-2xl font-bold pt-10 text-black">{items.heading}</h4>
                                     <p className=' text-center text-base   text-green-500'>{items.heading2}</p>
                                     <Link  className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img" href={items.Demo}>
-                                       {items.Dem}
+                                       {items.Demo}
                                     </Link>
 
                                    
