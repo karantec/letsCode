@@ -48,14 +48,14 @@ const postData: DataType[] = [
         heading: 'LinkedIn profile optimization',
         heading2: "LinkedIn profile optimization involves strategically tailoring your profile to showcase your skills experience  and accomplishments in a compelling manner. By doing so, you can enhance your online presence and improve your chances of being noticed by recruiters, hiring managers.",
         title:   "LinkedIn",
-        Demo:"#",
+        Demo:"LinkedIn",
         imgSrc: '/images/articles/article6.png',
     },
     {
         heading: 'Github profile optimization',
         heading2: "Optimizing your GitHub profile will not only strengthen your presence within the developer community but also open doors to new opportunities and collaborations.As you showcase your skills and dedication to coding, potential. ",
         title:   "Github",
-        Demo:"#",
+        Demo:"Github",
         imgSrc: '/images/articles/article7.jpg',
     },
 ]
@@ -120,7 +120,7 @@ export default class MultipleItems extends Component {
                                     <h4 className="mt-8 text-center text-2xl font-bold pt-10 text-black">{items.heading}</h4>
                                     <p className=' text-center text-base   text-green-500'>{items.heading2}</p>
                                     <Link  className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img" href={items.Demo}>
-                                       {items.Demo}
+                                       {items.title}
                                     </Link>
 
                                    
