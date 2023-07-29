@@ -115,7 +115,7 @@ export default class MultipleItems extends Component {
                         {postData.map((items, i) => (
                             <div key={i} >
 
-                                <div className='bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-3xl relative'>
+                                <div className='bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-3xl relative md:flex-wrap'>
                                     <Image src={items.imgSrc} alt="gaby" width={400} height={500} className="inline-block m-auto" />
 
                                     

@@ -30,7 +30,7 @@ export default function Home() {
       {/* <Testimonials /> */}
       <Articles />
       {/* <Joinus /> */}
-      <Insta />
+      {/* <Insta /> */}
     </main>
   )
 }

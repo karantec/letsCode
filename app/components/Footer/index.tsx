@@ -18,11 +18,13 @@ const products: ProductType[] = [
         id: 2,
         section: "Services",
         link: ['Resume', 'Placement', 'Portfolio', 'Github','LinkedIn']
+
     },
     {
         id: 3,
         section: "Pages",
         link: ['Privacy Policy', 'Term of Use', 'License']
+        
     },
     
 ]
