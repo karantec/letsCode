@@ -13,6 +13,7 @@ import Articles from './components/Articles/index';
 import Joinus from './components/Joinus/index';
 import Insta from './components/Insta/index';
 import Blog from "./components/Blog/index"
+import TechSection from "./components/TechSection/index"
 export default function Home() {
   return (
     <main>
@@ -30,6 +31,7 @@ export default function Home() {
       {/* <Testimonials /> */}
       <Articles />
       <Blog/>
+      <TechSection/>
       {/* <Joinus /> */}
       {/* <Insta /> */}
     </main>
