@@ -18,7 +18,7 @@ const navigation: NavigationItem[] = [
     { name: 'About ', href: '#aboutus-section', current: false },
     { name: 'Services', href: '#blog-section', current: false },
     // { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Blog', href: '#blog-section', current: false },
+    { name: 'Blog', href: 'https://render.com/', current: false },
     
     // { name: 'Testimonial', href: '#testimonial-section', current: false },
 ]

@@ -37,6 +37,27 @@ const postData: DataType[] = [
         Demo:"https://chat.whatsapp.com/DDA9Vix2xb86lPHvr4GK8L",
         imgSrc: '/images/Tech/dsa.png',
     },
+    {
+        heading: 'Full Stack Development',
+        heading2: "We are excited to announce the launch of our dedicated community focused on all things Full Stack Development. Whether you're a seasoned developer or just beginning your developer coding journey, this community is the perfect platform to explore, learn, and connect , colloborate and learn together. 💻💡        ",
+        title:   "Join Group",
+        Demo:"https://chat.whatsapp.com/J2V4N5d4I8MKpPlEsdEN0A",
+        imgSrc: '/images/Tech/fullstack.png',
+    },
+    {
+        heading: 'Data science',
+        heading2: "We are excited to announce the launch of our dedicated community focused on all things Data science. Whether you're a Data science expert  or just beginning your Data science, this community is the perfect platform to explore, learn, and connect , colloborate and learn together. 💻💡. 💻💡        ",
+        title:   "Join Group",
+        Demo:"https://chat.whatsapp.com/KCW6HycyQd2KoAYlC7Obsx",
+        imgSrc: '/images/Tech/datascience.jpg',
+    },
+    {
+        heading: 'Cloud Computing',
+        heading2: "We are excited to announce the launch of our dedicated community focused on all things Cloud Computing. Whether you're a Cloud expert  or just beginning your Cloud journey, this community is the perfect platform to explore, learn, and connect , colloborate and learn together. 💻💡. 💻💡        ",
+        title:   "Join Group",
+        Demo:"https://chat.whatsapp.com/FKDHUWJPjEyCoG0VLKRbEZ",
+        imgSrc: '/images/Tech/cloud.png',
+    },
 
     
 ]
@@ -100,7 +121,7 @@ export default class MultipleItems extends Component {
                                     <Image src={items.imgSrc} alt="gaby" width={400} height={500} className="inline-block m-auto" />
                                     <h4 className="mt-8 text-center text-2xl font-bold pt-10 text-black">{items.heading}</h4>
                                     <p className=' text-center text-base   text-green-500'>{items.heading2}</p>
-                                    <Link  className="absolute bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img" href={items.Demo}>
+                                    <Link  className="flex flex-col items-center justify-center mt-5 bg-blue text-white hover:bg-black hover:shadow-xl py-3 px-6 rounded-full article-img" href={items.Demo}>
                                        {items.title}
                                     </Link>
 

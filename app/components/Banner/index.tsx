@@ -36,7 +36,7 @@ const Banner = () => {
                     </div>
                     <div className='mx-4 my-7 text-center space-x-10  px-4 lg:text-start'>
                        <a href="https://competitions-and-programs-list.vercel.app/"> <button className='text-sm md:text-xl font-semibold hover:shadow-xl bg-blue text-white py-3 px-6 md:py-5 md:px-14 rounded-full hover:bg-hoblue'>
-                       Competion and Program List for Students
+                       Competition and <br/>Program List for Students
                         </button></a>
                       
                     </div>
