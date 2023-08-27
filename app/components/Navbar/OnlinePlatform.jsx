@@ -15,9 +15,9 @@ const Contactusform = () => {
                     </button>
                 </div> */}
                 <div className='hidden lg:block'>
-                   <a href="https://free-courses-with-certificates.netlify.app/"> <button type="button" className=' text-green-500   justify-end text-sm font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>
-                        Online Learning Platform
-                    </button></a>
+                   <Link style={{ textDecoration: 'none', color:'black' }} href="https://free-courses-with-certificates.netlify.app/"> <button type="button" className=' text-green-500   justify-end text-sm font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>
+                        LMS
+                    </button></Link>
                 </div>
             </div>
 

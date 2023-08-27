@@ -81,9 +81,8 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div>
                 <div id="service-section">
-            <div className="bg-lightgrey py-20" id="blog-section">
+            <div className="bg-lightgrey" id="blog-section">
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center">
@@ -115,7 +114,7 @@ export default class MultipleItems extends Component {
                 </div>
             </div>
             </div>
-            </div>
+        
 
         );
     }

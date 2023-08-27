@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
  
 const Banner = () => {
     return (
-        <div className='mx-auto max-w-7xl my-10 sm:py-10 px-8 lg:px-8'>
+        <div className='mx-auto max-w-7xl my-10 sm:py-10 px-10 lg:px-8'>
             <div className='grid grid-cols-1 lg:grid-cols-2  mx-10 my-16'>
 
                 {/* COLUMN-1 */}

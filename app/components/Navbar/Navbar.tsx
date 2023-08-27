@@ -17,8 +17,8 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
     { name: 'About ', href: '#aboutus-section', current: false },
     { name: 'Services', href: '#blog-section', current: false },
-    // { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Blog', href: 'https://render.com/', current: false },
+    { name: 'Blog', href: '#', current: false },
+    {name:'TechGroup', href:'#techSection',current:false}
     
     // { name: 'Testimonial', href: '#testimonial-section', current: false },
 ]
@@ -41,7 +41,7 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center border-right">
-                                <Link href="/" className='text-2xl text-green-500 sm:text-4xl font-semibold'>
+                                <Link href="/"  style={{ textDecoration: 'none',color:'black' }} className='text-2xl text-green-500 sm:text-4xl font-semibold'>
                                     Let's Code
                                 </Link>
                             </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
                             <div className="hidden lg:flex items-center border-right ">
                                 <div className="flex justify-end space-x-4">
                                     {navigation.map((item) => (
-                                        <Link
+                                        <Link style={{ textDecoration: 'none' }}
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(

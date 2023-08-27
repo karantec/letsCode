@@ -65,7 +65,7 @@ const footer = () => {
                             <ul>
                                 {product.link.map((link: string, index: number) => (
                                     <li key={index} className='mb-5'>
-                                        <Link href="/" className="text-white text-lg font-normal mb-6 space-links">{link}</Link>
+                                        <Link  style={{ textDecoration: 'none' }} href="/" className="text-white text-lg font-normal mb-6 space-links">{link}</Link>
                                     </li>
                                 ))}
                             </ul>
@@ -84,10 +84,10 @@ const footer = () => {
                             <h3 className='text-center md:text-start text-offwhite text-lg'>@2023 - All Rights Reserved by <Link href="/" target="_blank"> Let's Code</Link></h3>
                         </div>
                         <div className="flex justify-center md:justify-end">
-                            <Link href="/">
+                            <Link style={{ textDecoration: 'none' }} href="/">
                                 <h3 className="text-offwhite pr-6">Privacy policy</h3>
                             </Link>
-                            <Link href="/">
+                            <Link style={{ textDecoration: 'none' }} href="/">
                                 <h3 className="text-offwhite pl-6 border-solid border-l border-footer">Terms & conditions</h3>
                             </Link>
                         </div>
