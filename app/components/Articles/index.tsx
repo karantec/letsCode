@@ -106,14 +106,14 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center">
-                        <h3 className="text-blue text-lg font-normal tracking-widest">Services We offer to Studensts</h3>
+                        <h3 className="text-blue text-lg font-normal tracking-widest">Services We offer to Students</h3>
                         <h3 className="text-4xl sm:text-6xl font-bold">Our Services</h3>
                     </div>
                     <div 
-                    className="grid sm:grid-cols-2 items-center  md:grid-cols-3 gap-8  sm:px-0">
+                    className="grid sm:grid-cols-2 md:grid-cols-3 gap-8  sm:px-0">
         
                         {postData.map((items, i) => (
-                            <div key={i} >
+                            <div key={i} className ="flex items-stretch">
 
                                 <div className='bg-white m-3 px-3 pt-3 pb-12 my-10 shadow-lg rounded-3xl relative md:flex-wrap'>
                                     <Image src={items.imgSrc} alt="gaby" width={400} height={500} className="inline-block m-auto" />
